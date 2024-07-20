@@ -29,10 +29,13 @@ body {
 }
 
 .get-start-button {
-  display: block;
-  background: black;
-  padding: 8px;
-  width: 100%;
+  margin: 1em 0;
+  padding: 0.8em 3em;
+  font-size: 1em;
+  background-color: #black;
+  color: #FFF;
+  border-radius: 3px;
+  border: 1px solid #FFF;
 }
 
 .sidebar-logo img {
@@ -76,6 +79,30 @@ body {
   margin-right: 10px;
   width: 20px;
   text-align: center;
+}
+
+.sidebar-menu-sub-list {
+  margin: 10px 0 5px 0;
+}
+
+.sidebar-menu-text-title {
+  font-weight: bold;
+}
+
+.explore {
+  color: #ffdd40;
+}
+
+.grow {
+  color: #47cf73;
+}
+
+.companies {
+  color: #0ebeff;
+}
+
+.sidebar-menu-text-others {
+  color: #b7bbc8;
 }
 
 /*# sourceMappingURL=style.css.map */
