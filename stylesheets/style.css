@@ -3,9 +3,11 @@ html {
   line-height: 1.5;
   font-size: 15px;
   font-weight: 400;
+  height: 100%;
 }
 
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   background: #131417;
@@ -28,6 +30,32 @@ body {
   flex-wrap: wrap;
 }
 
+.l-main {
+  width: 100%;
+}
+
+.l-header {
+  display: flex;
+  align-items: center;
+}
+
+.l-sidebar {
+  width: 20%;
+  min-width: 188px;
+}
+
+.button {
+  display: inline-block;
+  border: 3px 0;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
 .get-start-button {
   margin: 1em 0;
   padding: 0.8em 3em;
@@ -38,18 +66,47 @@ body {
   border: 1px solid #FFF;
 }
 
+.button-primary {
+  border: 0;
+  background: #47cf73;
+  color: black;
+}
+
+.button-secondary {
+  border: 0;
+  background: #444857;
+}
+
+.header-buttons {
+  padding: 8px;
+}
+.header-buttons .button {
+  margin-right: 8px;
+  min-width: 100px;
+}
+
 .sidebar-logo img {
   max-width: 100%;
 }
 
-.l-sidebar {
-  width: 300px;
-  height: 100%;
-  background-color: #1F1F26;
-  position: fixed;
-  left: 0;
-  top: 0;
-  overflow-y: auto;
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #252830;
+  border-radius: 4px;
+  width: 100%;
+}
+.search-form i {
+  font-size: 20px;
+}
+
+.search-form-input {
+  margin-left: 16px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: #252830;
+  border: 0;
 }
 
 .sidebar-menu {
