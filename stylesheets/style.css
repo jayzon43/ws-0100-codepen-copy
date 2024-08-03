@@ -18,6 +18,12 @@ body {
   color: #FFFFFF;
 }
 
+ul {
+  padding-left: 0;
+  margin-right: 2rem;
+  list-style-type: none;
+}
+
 .l-flex {
   display: flex;
 }
@@ -114,6 +120,14 @@ body {
   align-items: center;
   padding: 32px;
   background: #2c303a;
+}
+
+.footer-links h4 {
+  margin: 2px;
+  margin-right: 2rem;
+}
+.footer-links li {
+  margin-right: 2rem;
 }
 
 .hero {
