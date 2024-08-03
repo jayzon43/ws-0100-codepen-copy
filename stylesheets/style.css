@@ -44,9 +44,13 @@ body {
   min-width: 188px;
 }
 
+.l-section {
+  margin: 32px 0;
+}
+
 .button {
   display: inline-block;
-  border: 3px 0;
+  border: 3px solid #2c303a;
   border-radius: 4px;
   padding: 8px 16px;
   text-align: center;
@@ -75,6 +79,74 @@ body {
 .button-secondary {
   border: 0;
   background: #444857;
+}
+
+.product-item {
+  background: #2c303a;
+  margin: 2rem 1rem;
+  width: 360px;
+}
+
+.product-item-row {
+  justify-content: center;
+}
+
+.product-item-list-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  justify-content: center;
+}
+.features .card {
+  height: 340px;
+  background: #2c303a;
+}
+
+.features-card {
+  margin: 2rem 1rem;
+  width: 360px;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: #2c303a;
+}
+
+.hero {
+  margin: 32px;
+}
+
+.hero-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-body-description {
+  width: 50%;
+  padding: 32px;
+}
+
+.hero-body-image {
+  width: 50%;
+  background: #2c303a;
+}
+
+.hero-logo {
+  font-size: 36px;
+}
+
+.hero-body-description-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero-footer .button {
+  width: 200px;
+  font-size: 1.4em;
 }
 
 .header-buttons {
