@@ -48,6 +48,14 @@ body {
   margin: 32px 0;
 }
 
+.l-margin-left-2rem {
+  margin-left: 2rem !important;
+}
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important;
+}
+
 .button {
   display: inline-block;
   border: 3px solid #2c303a;
@@ -180,6 +188,92 @@ body {
   justify-content: center;
 }
 
+.code-card {
+  margin-bottom: 8px;
+  background: #1d1e22;
+  border-radius: 6px;
+  width: 300px;
+  height: 140px;
+  font-size: 13px;
+}
+
+.code-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px;
+}
+
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+.code-card-header .fa:before {
+  color: lightgray;
+}
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.code-card-body {
+  padding: 8px;
+  padding-top: 0;
+}
+.code-card-body p {
+  margin: 0;
+}
+
+.hilight-orange {
+  color: #a88038;
+}
+
+.hilight-beige {
+  color: #e1ca72;
+}
+
+.hilight-green {
+  color: #74b087;
+}
+
+.hilight-purple {
+  color: #9f8198;
+}
+
+.hilight-blue {
+  color: #7a99ad;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .features {
   justify-content: center;
   padding: 2rem 0;
@@ -188,7 +282,8 @@ body {
   margin: 1rem;
   width: 360px;
 }
-.features .card {
+
+.card {
   height: 340px;
   background: #2c303a;
   color: #fff;
@@ -198,27 +293,28 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.features .card-icon {
+.card-icon {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.features .card-title {
+.card-title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-.features .card-text {
+.card-text {
   font-size: 0.9rem;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
-.features .card-link {
+.card-link {
   color: #76daff;
   text-decoration: none;
 }
-.features .card-link:hover {
+.card-link:hover {
   text-decoration: underline;
 }
-.features .card .pro-badge {
+
+.pro-badge {
   background-color: #ffdd40;
   color: #000;
   padding: 0.1rem 0.3rem;
@@ -259,7 +355,14 @@ body {
 
 .hero-body-image {
   width: 50%;
-  background: #2c303a;
+}
+
+.hero-body-image-card {
+  margin: 16px auto;
+  border-radius: 6px;
+  width: 495px;
+  height: 410px;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
 }
 
 .hero-logo {
