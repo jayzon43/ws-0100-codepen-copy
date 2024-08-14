@@ -1,5 +1,9 @@
+@use '../mixin' as m
+
 .sidebar
   background: #1F1F26
+  @include m.sm
+    display: none
 
 .get-start
   margin: 0 10px
