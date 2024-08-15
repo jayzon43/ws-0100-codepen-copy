@@ -46,7 +46,6 @@ ul {
 }
 
 .l-sidebar {
-  width: 20%;
   min-width: 188px;
 }
 
@@ -74,7 +73,7 @@ ul {
 
 .button {
   display: inline-block;
-  border: 3px solid #2c303a;
+  border: 3px solid #aaaebc;
   border-radius: 4px;
   padding: 8px 16px;
   text-align: center;
@@ -110,21 +109,6 @@ ul {
   border: 0;
   background: #444857;
   color: #fff;
-}
-
-.button-features, .features .card-button {
-  background-color: #444857;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  text-decoration: none;
-  align-self: flex-start;
-  font-size: 0.9rem;
-  transition: background-color 0.3s;
-  border: none;
-}
-.button-features:hover, .features .card-button:hover {
-  background-color: #555a6a;
 }
 
 .card {
@@ -177,7 +161,7 @@ ul {
 }
 
 .product-message-body {
-  color: gray;
+  color: #b7bbc8;
   margin-bottom: 16px;
 }
 
@@ -295,7 +279,7 @@ ul {
   justify-content: space-between;
 }
 .code-card-header .fa:before {
-  color: lightgray;
+  color: #b7bbc8;
 }
 
 .code-card-title-text {
@@ -364,7 +348,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 32px;
-  background: #black;
+  background: black;
 }
 
 .footer-links h4 {
@@ -476,8 +460,8 @@ ul {
   }
 }
 
-.get-start {
-  margin: 0 10px;
+.sidebar-logo {
+  max-width: 300px;
 }
 
 .get-start-text {
@@ -514,7 +498,7 @@ ul {
 }
 
 .text-weak {
-  color: gray;
+  color: #b7bbc8;
 }
 
 .text-warning {

@@ -1,5 +1,7 @@
+@use '../variable' as v
+
 .product-item
-    background: #2c303a
+    background: v.$card-gray
     margin: 2rem 1rem
     width: 360px
 
@@ -13,12 +15,12 @@
     padding: 16px
 
 .product-message-body
-    color: gray
+    color: v.$lightgray
     margin-bottom: 16px
 
 .product-item-card
     border-radius: 4px
-    background: #2c303a
+    background: v.$card-gray
     transition: .2s
     &:hover
         transform: scale(1.05)
@@ -58,7 +60,7 @@
     margin: 0
 
 .product-item-card-footer-card
-    background: black
+    background: v.$black
     border-radius: 4px
     margin-right: 4px
     padding: 2px 4px

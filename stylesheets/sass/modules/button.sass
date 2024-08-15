@@ -1,6 +1,8 @@
+@use '../variable' as v
+
 .button
     display: inline-block
-    border: 3px solid #2c303a
+    border: 3px solid v.$gray
     border-radius: 4px
     padding: 8px 16px
     text-align: center
@@ -24,27 +26,12 @@
 
 .button-primary
     border: 0
-    background: #47cf73
-    color: black
+    background: v.$primary-color
+    color: v.$black
 
 .button-secondary
     border: 0
-    background: #444857
+    background: v.$secondary-color
     color: #fff
 
-.button-features
-  background-color: #444857
-  color: #fff
-  padding: 0.5rem 1rem
-  border-radius: 4px
-  text-decoration: none
-  align-self: flex-start
-  font-size: 0.9rem
-  transition: background-color 0.3s
-  border: none
-  &:hover
-    background-color: #555a6a
 
-.features
-  .card-button
-    @extend .button-features

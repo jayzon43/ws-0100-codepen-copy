@@ -1,18 +1,19 @@
+@use '../variable' as v
 @use '../mixin' as m
 
 .sidebar
-  background: #1F1F26
+  background: v.$weak-black
   @include m.sm
     display: none
 
-.get-start
-  margin: 0 10px
+.sidebar-logo 
+  max-width: 300px
 
 .get-start-text
   margin: 0.2em
   font-size: 0.8em
   text-align: center
-  color: #b7bbc8
+  color: v.$lightgray
 
 .sidebar
   background: #1F1F26
@@ -22,14 +23,12 @@
     display: block
     padding-left: 16px
   a:hover
-    background: black
+    background: v.$black
 
 .sidebar-menu-title
   font-size: 1.1em
   margin-bottom: 2rem
   margin-left: 16px
-
-.sidebar-menu-list
 
 .sidebar-menu-sub-list
   margin-bottom: 16px
