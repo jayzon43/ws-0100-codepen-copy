@@ -478,14 +478,6 @@ ul {
   background: #1F1F26;
 }
 
-.sidebar-menu a {
-  display: block;
-  padding-left: 16px;
-}
-.sidebar-menu a:hover {
-  background: black;
-}
-
 .sidebar-menu-title {
   font-size: 1.1em;
   margin-bottom: 2rem;
@@ -494,6 +486,15 @@ ul {
 
 .sidebar-menu-sub-list {
   margin-bottom: 16px;
+}
+
+.sidebar-menu-sub-list-text {
+  display: block;
+  padding-left: 16px;
+}
+
+.sidebar-menu-sub-list-text:hover {
+  background: black;
 }
 
 .text-bold {
