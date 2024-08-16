@@ -182,7 +182,8 @@ ul {
   margin: auto;
   padding: 8px;
 }
-.product-item-card-image img {
+
+.product-item-card-image-detail {
   border-radius: 4px;
   object-fit: cover;
   width: 100%;
@@ -199,7 +200,8 @@ ul {
   height: 40px;
   border-radius: 4px;
 }
-.product-item-card-body-avator img {
+
+.product-item-card-body-avator-detail {
   border-radius: 4px;
   object-fit: cover;
   width: 100%;
@@ -208,7 +210,8 @@ ul {
 .product-item-card-body-title {
   margin-left: 1rem;
 }
-.product-item-card-body-title p {
+
+.product-item-card-body-title-description {
   margin: 0;
 }
 
@@ -461,7 +464,7 @@ ul {
 }
 
 .sidebar-logo {
-  max-width: 300px;
+  max-width: 188px;
 }
 
 .get-start-text {
