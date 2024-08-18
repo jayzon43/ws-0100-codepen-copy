@@ -354,11 +354,12 @@ ul {
   background: black;
 }
 
-.footer-links h4 {
+.footer-links-title {
   margin: 2px;
   margin-right: 1rem;
 }
-.footer-links li {
+
+.footer-links-text {
   margin-right: 1rem;
   list-style: none;
 }
